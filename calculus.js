@@ -6,14 +6,14 @@ function calculus() {
     if(operation=="+"){
       z=Number(x)+Number(y);
     }
-    else if(operation=="/"){
-      z=Number(x)/Number(y);
+    else if(operation=="-"){
+      z=Number(x)-Number(y);
     }
     else if(operation=="*"){
       z=Number(x)*Number(y);
     }
-    else if(operation=="-"){
-       z=Number(x)-Number(y);
+    else if(operation=="/"){
+       z=Number(x)/Number(y);
     }
     
     return z;
